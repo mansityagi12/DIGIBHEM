@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="main">
+      <nav class="nav">
+        <div>
+          <img class="logo" src="./images/logo.jpg" alt="" />
+        </div>
+        <div class="links">
+          <a href="">Shoping</a>
+          <a href="">PayBills</a>
+          <a href="">Transaction</a>
+          <a href="./components/user.html">User</a>
+        </div>
+      </nav>
+      <div class="container">
+        <div id="signup-section">
+          <form id="signup-form" action="">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <label for="username">Account no.:</label>
+            <input
+              type="text"
+              id="account"
+              name="account"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+            <button id="signupButton"  type="submit">Sign Up</button>
+          </form>
+        </div>
+        <div id="login-section" style="display: none;">
+          <form id="signup-form" action="">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <!-- <label for="username">Account no.:</label>
+            <input
+              type="text"
+              id="account"
+              name="account"
+              required
+            /> -->
+
+            <!-- <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /> -->
+
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+            <button id="login-form"  type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <h3>@About Us</h3>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

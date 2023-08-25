@@ -1,0 +1,19 @@
+#transaction-form{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 3rem;
+    border-radius: .8rem;
+}
+#transaction-form label{
+    font-size: x-large;
+}
+#transaction-form input{
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+#transactionType{
+    padding: .5rem;
+    font-size: large;
+    margin-bottom: 1rem;
+}

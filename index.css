@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    grid-template-rows: auto auto auto;
+    background-image: url('./images/main_img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav{
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;  
+}
+.container{
+    height:80vh ;
+    
+}
+.footer{
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 10rem;
+    height: 5rem;
+    margin-left: 2rem;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(99, 99, 240);
+    font-size: x-large;
+    padding: .5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container form{
+    border: 2px solid blue;
+    padding: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.container form label{
+    font-weight: bold;
+    font-size: x-large;
+}
+.container form input{
+    font-size: x-large;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: .7rem;
+}
+.container form button{
+    padding: .8rem;
+    border-radius: .5rem;
+    box-shadow: 2px 2px rgb(83, 83, 238);
+    background-color: rgb(41, 41, 161);
+    font-size: x-large;
+
+    
+}

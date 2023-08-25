@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Bill Payment</title>
+<link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <main class="main">
+        <nav class="nav">
+          <div>
+            <img class="logo" src="../images/logo.jpg" alt="logo" />
+          </div>
+          <div class="links">
+            <a href="./home.html">Home</a>
+            <a href="./shoping.html">Shoping</a>
+            <a href="./paybill.html">PayBills</a>
+            <a href="./transaction.html">Transaction</a>
+            <a href="./components/user.html">User</a>
+            <a href="../index.html">Logout</a>
+          </div>
+        </nav>
+        <div style="display: flex; flex-direction: column;" class="container">
+             <h2>Online Bill Payment</h2>
+            <form style="background-color: bisque;" id="payment-form">
+              <label for="cardNumber">Card Number:</label>
+              <input type="text" id="cardNumber" name="cardNumber" required>
+              
+              <label for="expiryDate">Expiry Date:</label>
+              <input type="text" id="expiryDate" name="expiryDate" required>
+              
+              <label for="cvv">CVV:</label>
+              <input type="text" id="cvv" name="cvv" required>
+              
+              <label for="amount">Amount:</label>
+              <input type="number" id="amount" name="amount" required>
+              
+              <button type="button" id="submitPayment">Pay Now</button>
+            </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <h3>@About Us</h3>
+      </footer>
+<script src="../js/payment.js"></script>
+</body>
+</html>

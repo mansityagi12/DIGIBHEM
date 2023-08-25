@@ -1,0 +1,17 @@
+#user-profile{
+    background-color: gainsboro;
+    height: 70vh;
+    width: 60%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+#user-profile p,h2{
+    font-size: x-large;
+    margin: 2rem;
+}
+#user-profile h2{
+    font-size: xx-large;
+}
